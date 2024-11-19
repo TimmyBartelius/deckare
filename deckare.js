@@ -54,6 +54,14 @@ const books = [
 		author: "Åsa Larsson",
 		genre: "Deckare",
 		price: 149
+	},
+	{
+		id: 9,
+		title: "The Winter Wars",
+		author: "Timmy Bartelius",
+		genre: "Fantasy",
+		price: "Invalueble"
+
 	}
 ];
 

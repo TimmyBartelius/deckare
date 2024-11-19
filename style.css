@@ -1,5 +1,7 @@
 .card-grid{
 	border: solid black 3px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .card {
