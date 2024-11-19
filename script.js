@@ -14,7 +14,7 @@ books.forEach(book => {
 
 	cardTitle.innerText = book.title
 	cardAuthor.innerText = book.author
-	cardPrice.innterText = book.price
+	cardPrice.innerText = book.price
 
 	card.append(cardPrice)
 	cardGrid.append(card)
