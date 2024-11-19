@@ -1,7 +1,7 @@
 const books = [
 	{
 		id: 1,
-		title: "Mannen som lekte med elden",
+		title: "Flickan som lekte med elden",
 		author: "Stieg Larsson",
 		genre: "Deckare",
 		price: 149
