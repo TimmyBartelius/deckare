@@ -4,7 +4,7 @@ const cardGrid = document.querySelector('.card-grid')
 
 //console.log('Deckare', books, cardGrid)
 
-books.forEach(book =>{
+books.forEach(book => {
 	const card = document.createElement('section')
 	const cardTitle = document.createElement('h3')
 	const cardAuthor = document.createElement('p')
@@ -17,4 +17,5 @@ books.forEach(book =>{
 	cardPrice.innterText = book.price
 
 	card.append(cardPrice)
+	cardGrid.append(card)
 })
