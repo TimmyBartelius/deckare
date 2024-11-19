@@ -29,18 +29,6 @@ books.forEach(book => {
 	console.log(card)
 })
 
-document.getElementById('flik1').addEventListener('click', function(){
-	openTab('flik1');
-});
-document.getElementById('flik2').addEventListener('click', function(){
-	openTab('flik2');
-});
-document.getElementById('flik3').addEventListener('click', function(){
-	openTab('flik3');
-});
-document.getElementById('flik4').addEventListener('click', function(){
-	openTab('flik4');
-});
 
 
 // const cardPriceButton = document.querySelector('#card-price-button')
