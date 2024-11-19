@@ -9,14 +9,21 @@ books.forEach(book => {
 	const cardTitle = document.createElement('h3');
 	const cardAuthor = document.createElement('p');
 	const cardPrice = document.createElement('p');
+	const borrowButton = document.createElement('button');
 
 	card.classList.add('card');
 
 	cardTitle.innerText = book.title;
 	cardAuthor.innerText = book.author;
 	cardPrice.innerText = book.price;
+	borrowButton.innerText = 'Låna'
 
-	card.append(cardTitle, cardPrice, cardAuthor);
+	borrowButton.addEventListener('click', () =>  {
+		card.remove()
+	})
+	
+
+	card.append(cardTitle, cardPrice, cardAuthor, borrowButton);
 	cardGrid.append(card);
 
 	console.log(card)
