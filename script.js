@@ -21,3 +21,12 @@ books.forEach(book => {
 
 	console.log(card)
 })
+
+
+const cardPriceButton = document.querySelector('#card-price-button')
+cardPriceButton.addEventListener('click', () =>{
+	//öka priset 10% -> modifiera listan med map eller vanlig for-loop
+	//ta bort alla cards
+	//lägg till cards igen - kan vi använda en funktion?
+})
+

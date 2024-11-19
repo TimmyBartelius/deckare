@@ -60,7 +60,7 @@ const books = [
 		title: "The Winter Wars",
 		author: "Timmy Bartelius",
 		genre: "Fantasy",
-		price: "Asmycket"
+		price: 300
 
 	}
 ];
